@@ -1,0 +1,79 @@
+:root {
+  font-family: Rubik,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+
+
+  color: #030860;
+  background-color: #ECF1FF;
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+select {
+  padding: 10px 40px;
+  display: block;
+  background-color: rgba(236, 241, 255, 0.42);
+  border-radius: 5px;
+  color: #000860;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button {
+  display: inline-flex;
+  border: 2px solid #ff2457;
+  border-radius: 27px;
+  padding: 10px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  background: #ff2457;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color .3s,background-color .3s,border-color .3s;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+button:hover {
+  border: 2px solid rgb(255, 255, 255);
+  background: rgba(255, 36, 87, 0.87);
+}
+
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0;
+  text-align: left;
+}
